@@ -32,7 +32,7 @@ class About extends Component {
 						         {city} 
                    </span><br />
 						   <span>{phone}</span><br />
-                     <span>{email}</span>
+                     <span>{email}</span><br />
 					   </p>
                </div>
                <div className="columns download">

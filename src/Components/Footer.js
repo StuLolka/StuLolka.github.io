@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import git_logo from './Github.png'
+import linkedin_logo from './Linkedin_Logo.png'
+import hh_logo from './HeadHunter_logo.png'
+import tl_logo from './Telegramm_logo.png'
 
 class Footer extends Component {
   render() {
@@ -14,8 +18,12 @@ class Footer extends Component {
 
      <div className="row">
         <div className="twelve columns">
-           <ul className="social-links">
-              {networks}
+        <ul className="social">
+               <li><a  href='https://github.com/StuLolka'><img className ="imgLogoFoot" src={git_logo}></img></a>
+               <a  href='https://www.linkedin.com/in/анастасия-герасимова-888bb41b6/'><img className ="imgLogoFoot" src={linkedin_logo}></img></a>
+               <a  href='http://hh.ru/resume/4ed8dab8ff08044c930039ed1f68546670394b'><img className ="imgLogoFoot" src={hh_logo}></img></a>
+               <a  href='http://t.me/Belo4kaS'><img className ="imgLogoFoot" src={tl_logo}></img></a>
+               </li>
            </ul>
 
            <ul className="copyright">

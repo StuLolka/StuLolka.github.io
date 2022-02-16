@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import git_logo from './Github.png'
+import linkedin_logo from './Linkedin_Logo.png'
+import hh_logo from './HeadHunter_logo.png'
+import tl_logo from './Telegramm_logo.png'
+
 
 class Header extends Component {
   render() {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var occupation= this.props.data.occupation;
       var description= this.props.data.description;
-      var city= this.props.data.address.city;
       var networks= this.props.data.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
@@ -35,7 +38,11 @@ class Header extends Component {
             <h3> Мой родной город - Москва. {description}.</h3>
             <hr />
             <ul className="social">
-               {networks}
+               <li><a  href='https://github.com/StuLolka'><img className ="imgLogo" src={git_logo}></img></a>
+               <a  href='https://www.linkedin.com/in/анастасия-герасимова-888bb41b6/'><img className ="imgLogo" src={linkedin_logo}></img></a>
+               <a  href='http://hh.ru/resume/4ed8dab8ff08044c930039ed1f68546670394b'><img className ="imgLogo" src={hh_logo}></img></a>
+               <a  href='http://t.me/Belo4kaS'><img className ="imgLogo" src={tl_logo}></img></a>
+               </li>
             </ul>
          </div>
       </div>
