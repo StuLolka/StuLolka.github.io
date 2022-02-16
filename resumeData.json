@@ -1,0 +1,100 @@
+{
+  "main": {
+    "name": "Анастасия",
+    "occupation": "Москва",
+    "description": "Мне 21 год, из которых последние пять лет были тесно связаны с программированием. К IOS-разработке я пришла в 2020 году, сначала это были самостоятельные небольшие проекты, а затем я получила коммерческий опыт, работая над приложением \"МТС музыка\"",
+    "image": "profilepic.jpg",
+    "bio": "Увлеклась мобильной разработкой весной 2020 года, решила выбрать IOS, так как последние года пользуюсь только техникой Apple. Писала свои небольшие учебные проекты, которые можно посмотреть на GitHub. Коммерческий опыт с августа 2021. Помимо работы я также учусь в \"Финансовом университете при правительстве РФ\" на направлении \"прикладная информатика\" на заочной форме обучения. Увлекаюсь спортивным программированием и Machine Learning.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "gera-stu@ya.ru",
+    "phone": "8 (936)-666-44-27",
+    "address": {
+      "street": "(Your Street)",
+      "city": "Москва",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload": "http://timbakerdev.com",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/анастасия-герасимова-888bb41b6/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/StuLolka",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Ниже приведена примерная оценка моих навыков:",
+    "education": [
+      {
+        "school": "Финансовый Университет",
+        "graduated": "2020-...",
+        "description": "В университете я получила опыт программирования на языке Python"
+      },
+      {
+        "school": "Школа 21",
+        "graduated": "2019-2020",
+        "description": "В школа 21 я научилась программировать на языке С "
+      },
+      {
+        "school": "Гид по языку программирования Swift",
+        "graduated": "Апрель 2020",
+        "description": "Этот курс стал для меня отправной точкой в мир IOS"
+      },
+      {
+        "school": "UIKit с нуля",
+        "graduated": "Май-июнь 2020",
+        "description": "Базовые знания UIKit"
+      },
+      {
+        "school": "Введение в IOS-разработку",
+        "graduated": "Август 2020",
+        "description": "Курс от МФТИ, который прокачал мои скиллы как в Swift, так и в IOS-разработке в целом"
+      }
+    ],
+    "work": [
+      {
+        "company": "Смородина Мобайл",
+        "title": "Junior IOS-разработчик",
+        "years": "Август 2020-...",
+        "description": "В мои обязанности входило как и поиск и исправление багов, так и верстка экранов."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Swift",
+        "level": "90%"
+      },
+      {
+        "name": "MVP",
+        "level": "80%"
+      },
+      {
+        "name": "Networking",
+        "level": "70%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "Английский язык",
+        "level": "75%"
+      },
+      {
+        "name": "C",
+        "level": "70%"
+      },
+      {
+        "name": "Python 3",
+        "level": "70%"
+      }
+    ]
+  }
+}
